@@ -2,7 +2,7 @@ const USER = 'USER';
 const newGame = [];
 
 export function getUser() {
-    const user = JSON.parse(localStorage.getItem(USER));
+    let user = JSON.parse(localStorage.getItem(USER));
 
     if (!user) {
         user = [];

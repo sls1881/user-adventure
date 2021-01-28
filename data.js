@@ -2,8 +2,8 @@ const bob = {
     id: 'Bob',
     title: 'Bob at the Grill',
     map: {
-        top: '89%',
-        left: '44%'
+        top: '160px',
+        left: '180px'
     },
     image: 'https://i.gifer.com/ETf.gif',
     description: `
@@ -40,8 +40,8 @@ const tina = {
     id: 'Tina',
     title: 'Tina Waiting Tables',
     map: {
-        top: '17%',
-        left: '37%'
+        top: '55%',
+        left: '45%'
     },
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToe23YIglNRIQqABet1LjKXszLTyUXZBA3fg&usqp=CAU',
     description: `
@@ -78,7 +78,7 @@ const louise = {
     id: 'Louise',
     title: 'Louise up to Shenanigans',
     map: {
-        top: '31%',
+        top: '37%',
         left: '5%'
     },
     prerequisites: ['bob', 'tina'],
