@@ -6,30 +6,24 @@ const bob = {
         left: '180px'
     },
     image: 'https://i.gifer.com/ETf.gif',
-    description: `
-        You take a set at the bar and look over the menu. "Hmmm, what should I order?" you think to yourself. Should I try to burger of the day? Review the menu and make your selection. 
-    `,
+    description: `You take a seat at the bar and look over the menu. "Hmmm, what should I order?" you think to yourself. Should I try to burger of the day? Review the menu and make your selection.`,
     choices: [{
         id: 'Cheeses',
         description: 'Cheeses Is Born Burger (comes with baby Swiss cheese)',
-        result: `
-            You had a spiritual awakening while eating your burger. Lucky for you, this burger has zero calories, which means, you've earned 20 artery health points. Unfortunately, due to your new awakening, you are much more charitable and you tipped generously, so you lose 20 burger bucks.
-        `,
+        result: `You had a spiritual awakening while eating your burger. Lucky for you, this burger has zero calories, which means, you've earned 20 artery health points. Unfortunately, due to your new awakening, you are much more charitable and you tipped generously, so you lose 20 burger bucks.`,
         ahp: 20,
         bb: -20
     }, {
         id: 'Paranormal',
         description: 'Paranormal Pepper Jack-tivity Burger (comes with pepper Jack cheese)',
-        result: `
-            Oh no! You've been possessed by a ghost. Since you can no longer eat you've lost 50 burger bucks and you'll starve to death soon.
+        result: `Oh no! You've been possessed by a ghost. Since you can no longer eat you've lost 50 burger bucks and you'll starve to death soon.
         `,
         ahp: 0,
         bb: -50
     }, {
         id: 'Blondes',
         description: 'Blondes Have More Fun-gus Burger (comes with mushrooms)',
-        result: `
-            You are now blonde, and therefore, you now have more fun. Obvi! Your new energetic lifestyle has gained you 10 artery points, but you lost 20 burger bucks because you have to pay for the hair dye.
+        result: `You are now blonde, and therefore, you now have more fun. Obvi! Your new energetic lifestyle has gained you 10 artery points, but you lost 20 burger bucks because you have to pay for the hair dye.
         `,
         ahp: 10,
         bb: -20

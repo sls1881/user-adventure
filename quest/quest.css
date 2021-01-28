@@ -1,0 +1,8 @@
+input {
+    display: block;
+}
+
+img {
+    display: flex;
+    text-align: center;
+}
