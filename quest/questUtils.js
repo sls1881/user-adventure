@@ -49,22 +49,7 @@ export function renderQuest(quest) {
     button1.classList.add('submit');
     form.append(button1);
 
-    const button2 = document.createElement('button');
-    button2.textContent = 'Adventure time!';
-    form.append(button2);
-
     domDiv.append(div);
 
 }
 
-// export function renderChoice(choice) {
-
-
-//     return label;
-
-// }
-
-// const span = document.createElement('span');
-// span.textContent = choice.result;
-// span.classList.add('results');
-// div.append(span);

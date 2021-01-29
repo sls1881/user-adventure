@@ -17,7 +17,7 @@ const health = user.ahp;
 const money = user.bb;
 
 if (allCompletedQuests || health <= 0 || money <= 0) {
-    window.location = '../result.html';
+    window.location = '../result/index.html';
 }
 
 for (let quest of questData) {

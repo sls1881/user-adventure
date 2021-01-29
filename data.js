@@ -6,7 +6,7 @@ const bob = {
         left: '180px'
     },
     image: 'https://i.gifer.com/ETf.gif',
-    description: `You take a seat at the bar and look over the menu. "Hmmm, what should I order?" you think to yourself. Should I try to burger of the day? Review the menu and make your selection.`,
+    description: `You take a seat at the bar and look over the menu. "Hmmm, what should I order?" you think to yourself. Should I try the burger of the day? Review the menu and make your selection.`,
     choices: [{
         id: 'Cheeses',
         description: 'Cheeses Is Born Burger (comes with baby Swiss cheese)',
@@ -78,7 +78,7 @@ const louise = {
     prerequisites: ['bob', 'tina'],
     image: 'https://i.pinimg.com/originals/ea/c5/a9/eac5a9a73091dab6697025ce69b21c94.gif',
     description: `
-        Now that you're done eating, Louise has invited you to play a prank on her family with her. You must be fully committed for it to work. Choose your shenanigans wisely, you're life depends on it.
+        Now that you're done eating, Louise has invited you to play a prank on her family with her. You must be fully committed for it to work. Choose your shenanigans wisely, your life depends on it.
     `,
     choices: [{
         id: 'couch',
@@ -89,7 +89,7 @@ const louise = {
     }, {
         id: 'steal',
         description: 'Stealing A $1,000 Check For A Movie Screening',
-        result: 'Stealing is wrong? Luckily, you scam earned the restaurant enough money tht you are walk away without losing or gaining any points.',
+        result: 'Stealing is wrong? Luckily, you scam earned the restaurant enough money that you are walk away without losing or gaining any points.',
         ahp: 0,
         bb: 0
     }, {
