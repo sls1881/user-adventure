@@ -1,0 +1,18 @@
+body, button, input {
+    font-family: 'Delius Unicase', cursive;
+}
+body {
+    background-color:rgba(189, 4, 4, 75%);
+}
+
+input, button {
+    display: block;
+}
+button {
+    background-color: rgb(81, 109, 161);
+}
+
+img {
+    display: flex;
+    justify-self: center;
+}

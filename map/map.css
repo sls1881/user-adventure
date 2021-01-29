@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    
+    font-family: 'Delius Unicase', cursive;
+}
+
+h1 {
+    color: rgb(189, 4, 4);
+    text-align: center;
+}
+
+li {
+    position: absolute;
+    list-style: none;
+}
+
+a {
+    color: white;
+}
+
+.img-styling {
+    height: 100vh;
+    position: relative;
+    background-image: url('https://i.pinimg.com/originals/e8/5a/56/e85a56b7ff48e72427d43d8b961da867.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+.foot-img {
+    height: 30%;
+}
