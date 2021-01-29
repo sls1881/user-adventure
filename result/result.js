@@ -1,7 +1,7 @@
 import { health } from './health.js';
 import { money } from './money.js';
 import { aliveHealthMessages, deadHealthMessages, deadOrAliveMoneyMessages, } from './message.js';
-import { getUser } from '../localStorage.js';
+import { clearStorage, getUser } from '../localStorage.js';
 
 const user = getUser();
 
@@ -24,10 +24,11 @@ if (resultMoney === 'starved') {
 
 const healthMessage = burgerBuckMessages[resultHealth];
 
-const results = `${user.character}, after years of eating at Bob's Burgers, you ${moneyMessage} and ${healthMessage}.`;
+const results = `${user.name}, after eating at Bob's Burgers ${moneyMessage} ${healthMessage}.`;
 
 resultMessage.textContent = results;
 
 resetButton.addEventListener('click', () => {
     window.location = '../index.html';
+    clearStorage();
 });

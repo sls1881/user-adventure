@@ -1,0 +1,18 @@
+body, button {
+    
+    font-family: 'Delius Unicase', cursive;
+}
+
+body {
+    background-image: url('https://media4.giphy.com/media/3og0IGQGmdZN41qC7S/source.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    color: rgb(189, 4, 4);
+}
+
+button {
+    background-color: rgb(81, 109, 161);
+}
