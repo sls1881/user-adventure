@@ -53,15 +53,3 @@ form.addEventListener('submit', (e) => {
 button2.addEventListener('click', () => {
     window.location = '../map';
 });
-
-
-// On radio button event listener submit
-// put the new stats in local storage
-// We should get a feedback div for the result 
-// Make another div with a span in quest for results
-
-// On submit direct to result div (textContent)
-// results.textContent = choices.result
-// Hide submit button
-// New event listener (click)
-// Window.location back to map

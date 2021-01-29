@@ -89,7 +89,7 @@ const louise = {
     }, {
         id: 'steal',
         description: 'Stealing A $1,000 Check For A Movie Screening',
-        result: 'Stealing is wrong? Luckily, you scam earned the restaurant enough money that you are walk away without losing or gaining any points.',
+        result: 'Stealing is wrong? Luckily, your scam earned the restaurant enough money that you are walk away without losing or gaining any points.',
         ahp: 0,
         bb: 0
     }, {
